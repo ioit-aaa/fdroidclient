@@ -103,6 +103,7 @@ public class PreferencesFragment extends PreferenceFragmentCompat
             Preferences.PREF_SHOW_INCOMPAT_VERSIONS,
             Preferences.PREF_THEME,
             Preferences.PREF_USE_PURE_BLACK_DARK_THEME,
+            Preferences.PREF_USE_MONET,
             Preferences.PREF_FORCE_TOUCH_APPS,
             Preferences.PREF_LOCAL_REPO_NAME,
             Preferences.PREF_LANGUAGE,
@@ -339,6 +340,16 @@ public class PreferencesFragment extends PreferenceFragmentCompat
                 break;
 
             case Preferences.PREF_USE_PURE_BLACK_DARK_THEME:
+                if (changing) {
+                    AppCompatActivity activity = (AppCompatActivity) getActivity();
+                    // Theme will be applied upon activity creation
+                    if (activity != null) {
+                        ActivityCompat.recreate(activity);
+                    }
+                }
+                break;
+
+            case Preferences.PREF_USE_MONET:
                 if (changing) {
                     AppCompatActivity activity = (AppCompatActivity) getActivity();
                     // Theme will be applied upon activity creation
@@ -630,6 +641,11 @@ public class PreferencesFragment extends PreferenceFragmentCompat
         initUseDnsCachePreference();
         initPreferForeignPreference();
         initUseTorPreference(requireContext().getApplicationContext());
+
+        SwitchPreferenceCompat useMonet = findPreference(Preferences.PREF_USE_MONET);
+        if (useMonet != null) {
+            useMonet.setEnabled(Build.VERSION.SDK_INT >= Build.VERSION_CODES.S);
+        }
 
         updateIpfsGatewaySummary();
     }

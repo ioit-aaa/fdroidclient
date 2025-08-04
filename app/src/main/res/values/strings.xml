@@ -466,6 +466,8 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="theme">Theme</string>
     <string name="use_pure_black_dark_theme">Use pure black background in dark theme</string>
     <string name="use_pure_black_dark_theme_summary">Recommended only for OLED screens.</string>
+    <string name="use_monet">Use Material You colors</string>
+    <string name="use_monet_summary">Use colors from your wallpaper (Android 12+)</string>
     <string name="unsigned">Unsigned</string>
     <string name="unverified">Unverified</string>
     <string name="repo_list_info_title">Repository list</string>

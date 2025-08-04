@@ -177,6 +177,9 @@ public class FDroidApp extends Application implements androidx.work.Configuratio
     }
 
     public static void applyTheme() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && Preferences.get().useMonet()) {
+            com.google.android.material.color.DynamicColors.applyToActivitiesIfAvailable(instance);
+        }
         Preferences.Theme curTheme = Preferences.get().getTheme();
         switch (curTheme) {
             case dark:
