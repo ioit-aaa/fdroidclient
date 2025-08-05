@@ -52,10 +52,12 @@ public class ScreenShotsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (Preferences.get().isPureBlack()) {
+            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
+        }
+
         FDroidApp fdroidApp = (FDroidApp) getApplication();
         fdroidApp.setSecureWindow(this);
-
-        fdroidApp.applyPureBlackBackgroundInDarkTheme(this);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screenshots);

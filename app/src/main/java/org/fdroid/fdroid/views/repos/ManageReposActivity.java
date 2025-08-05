@@ -121,10 +121,13 @@ public class ManageReposActivity extends AppCompatActivity implements RepoAdapte
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (Preferences.get().isPureBlack()) {
+            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
+        }
+
         FDroidApp fdroidApp = (FDroidApp) getApplication();
         fdroidApp.setSecureWindow(this);
 
-        fdroidApp.applyPureBlackBackgroundInDarkTheme(this);
         // Edge-to-edge has a bug in Android 10 (and lower?) where end of page is overlayed
         if (Build.VERSION.SDK_INT > 29) EdgeToEdge.enable(this);
         repoManager = FDroidApp.getRepoManager(this);

@@ -13,10 +13,12 @@ public class PanicPreferencesActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle bundle) {
+        if (org.fdroid.fdroid.Preferences.get().isPureBlack()) {
+            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
+        }
+
         FDroidApp fdroidApp = (FDroidApp) getApplication();
         fdroidApp.setSecureWindow(this);
-
-        fdroidApp.applyPureBlackBackgroundInDarkTheme(this);
 
         super.onCreate(bundle);
         setContentView(R.layout.activity_panic_settings);

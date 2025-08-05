@@ -52,10 +52,12 @@ class RepoDetailsActivity : AppCompatActivity(), RepoDetailsScreenCallbacks {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        if (org.fdroid.fdroid.Preferences.get().isPureBlack()) {
+            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
+        }
         super.onCreate(savedInstanceState)
 
         (application as FDroidApp).setSecureWindow(this)
-        (application as FDroidApp).applyPureBlackBackgroundInDarkTheme(this)
         enableEdgeToEdge()
 
         val repoId = intent.getLongExtra(ARG_REPO_ID, 0)
