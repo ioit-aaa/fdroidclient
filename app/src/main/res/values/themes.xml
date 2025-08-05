@@ -120,6 +120,14 @@
         <!-- customizations that are not API-level specific go here. -->
     </style>
 
+    <style name="ThemeOverlay.App.PureBlack" parent="">
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurface">@android:color/black</item>
+        <item name="colorSurfaceContainer">@android:color/black</item>
+        <item name="colorSurfaceContainerLow">@android:color/black</item>
+        <item name="colorSurfaceContainerLowest">@android:color/black</item>
+    </style>
+
     <!-- Same as Theme.App except a black background in Dark mode -->
     <style name="Theme.App.Black" parent="Theme.App" />
 

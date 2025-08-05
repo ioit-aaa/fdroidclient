@@ -163,18 +163,7 @@ public class FDroidApp extends Application implements androidx.work.Configuratio
         });
     }
 
-    /**
-     * Apply pure black background in dark theme setting. Must be called in every activity's
-     * {@link AppCompatActivity#onCreate()}, before super.onCreate().
-     *
-     * @param activity The activity to apply the setting.
-     */
-    public void applyPureBlackBackgroundInDarkTheme(AppCompatActivity activity) {
-        final boolean isPureBlack = Preferences.get().isPureBlack();
-        if (isPureBlack) {
-            activity.setTheme(R.style.Theme_App_Black);
-        }
-    }
+    
 
     public static void applyTheme() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && Preferences.get().useMonet()) {

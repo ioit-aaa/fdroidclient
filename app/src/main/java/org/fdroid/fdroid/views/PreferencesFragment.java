@@ -103,7 +103,6 @@ public class PreferencesFragment extends PreferenceFragmentCompat
             Preferences.PREF_SHOW_INCOMPAT_VERSIONS,
             Preferences.PREF_THEME,
             Preferences.PREF_USE_PURE_BLACK_DARK_THEME,
-            Preferences.PREF_USE_MONET,
             Preferences.PREF_FORCE_TOUCH_APPS,
             Preferences.PREF_LOCAL_REPO_NAME,
             Preferences.PREF_LANGUAGE,
@@ -340,16 +339,6 @@ public class PreferencesFragment extends PreferenceFragmentCompat
                 break;
 
             case Preferences.PREF_USE_PURE_BLACK_DARK_THEME:
-                if (changing) {
-                    AppCompatActivity activity = (AppCompatActivity) getActivity();
-                    // Theme will be applied upon activity creation
-                    if (activity != null) {
-                        ActivityCompat.recreate(activity);
-                    }
-                }
-                break;
-
-            case Preferences.PREF_USE_MONET:
                 if (changing) {
                     AppCompatActivity activity = (AppCompatActivity) getActivity();
                     // Theme will be applied upon activity creation
@@ -693,6 +682,8 @@ public class PreferencesFragment extends PreferenceFragmentCompat
             AppUpdateWorker.scheduleOrCancel(requireContext());
         } else if (Preferences.PREF_AUTO_DOWNLOAD_INSTALL_UPDATES.equals(key)) {
             AppUpdateWorker.scheduleOrCancel(requireContext());
+        } else if (Preferences.PREF_USE_MONET.equals(key)) {
+            Toast.makeText(getContext(), R.string.theme_change_requires_restart, Toast.LENGTH_SHORT).show();
         }
     }
 
