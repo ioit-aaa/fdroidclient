@@ -116,9 +116,7 @@ public class AppDetailsActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        if (Preferences.get().isPureBlack()) {
-            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
-        }
+        FDroidApp.applyThemeToActivity(this);
 
         fdroidApp = (FDroidApp) getApplication();
         fdroidApp.setSecureWindow(this);

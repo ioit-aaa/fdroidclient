@@ -52,9 +52,7 @@ class RepoDetailsActivity : AppCompatActivity(), RepoDetailsScreenCallbacks {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        if (org.fdroid.fdroid.Preferences.get().isPureBlack()) {
-            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
-        }
+        FDroidApp.applyThemeToActivity(this)
         super.onCreate(savedInstanceState)
 
         (application as FDroidApp).setSecureWindow(this)

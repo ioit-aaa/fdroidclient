@@ -166,9 +166,6 @@ public class FDroidApp extends Application implements androidx.work.Configuratio
     
 
     public static void applyTheme() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && Preferences.get().useMonet()) {
-            com.google.android.material.color.DynamicColors.applyToActivitiesIfAvailable(instance);
-        }
         Preferences.Theme curTheme = Preferences.get().getTheme();
         switch (curTheme) {
             case dark:
@@ -186,6 +183,35 @@ public class FDroidApp extends Application implements androidx.work.Configuratio
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM);
                 }
                 break;
+        }
+    }
+
+    public static void applyThemeToActivity(AppCompatActivity activity) {
+        String themeColor = Preferences.get().getThemeColor();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && Preferences.get().useMonet() && themeColor.equals("default")) {
+            // Handled by DynamicColors
+        } else {
+            switch (themeColor) {
+                case "grape_purple":
+                    activity.setTheme(R.style.Theme_App_GrapePurple);
+                    break;
+                case "chocolate_brown":
+                    activity.setTheme(R.style.Theme_App_ChocolateBrown);
+                    break;
+                case "hatsune_miku":
+                    activity.setTheme(R.style.Theme_App_HatsuneMiku);
+                    break;
+                case "strawberry_red":
+                    activity.setTheme(R.style.Theme_App_StrawberryRed);
+                    break;
+                case "sakura_pink":
+                    activity.setTheme(R.style.Theme_App_SakuraPink);
+                    break;
+            }
+        }
+
+        if (Preferences.get().isPureBlack()) {
+            activity.getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
         }
     }
 

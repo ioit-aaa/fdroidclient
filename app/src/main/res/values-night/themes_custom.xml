@@ -1,0 +1,151 @@
+<resources>
+    <style name="Base.Theme.App.GrapePurple" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/m3_dark_grape_purple_primary</item>
+        <item name="colorOnPrimary">@color/m3_dark_grape_purple_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/m3_dark_grape_purple_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/m3_dark_grape_purple_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/m3_dark_grape_purple_secondary</item>
+        <item name="colorOnSecondary">@color/m3_dark_grape_purple_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/m3_dark_grape_purple_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/m3_dark_grape_purple_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/m3_dark_grape_purple_tertiary</item>
+        <item name="colorOnTertiary">@color/m3_dark_grape_purple_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/m3_dark_grape_purple_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/m3_dark_grape_purple_onTertiaryContainer</item>
+        <item name="colorError">@color/m3_dark_grape_purple_error</item>
+        <item name="colorOnError">@color/m3_dark_grape_purple_onError</item>
+        <item name="colorErrorContainer">@color/m3_dark_grape_purple_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/m3_dark_grape_purple_onErrorContainer</item>
+        <item name="android:colorBackground">@color/m3_dark_grape_purple_background</item>
+        <item name="colorOnBackground">@color/m3_dark_grape_purple_onBackground</item>
+        <item name="colorSurface">@color/m3_dark_grape_purple_surface</item>
+        <item name="colorOnSurface">@color/m3_dark_grape_purple_onSurface</item>
+        <item name="colorSurfaceVariant">@color/m3_dark_grape_purple_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_dark_grape_purple_onSurfaceVariant</item>
+        <item name="colorOutline">@color/m3_dark_grape_purple_outline</item>
+        <item name="colorOutlineVariant">@color/m3_dark_grape_purple_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/m3_dark_grape_purple_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/m3_dark_grape_purple_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/m3_dark_grape_purple_inversePrimary</item>
+    </style>
+
+    <style name="Base.Theme.App.ChocolateBrown" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/m3_dark_chocolate_brown_primary</item>
+        <item name="colorOnPrimary">@color/m3_dark_chocolate_brown_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/m3_dark_chocolate_brown_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/m3_dark_chocolate_brown_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/m3_dark_chocolate_brown_secondary</item>
+        <item name="colorOnSecondary">@color/m3_dark_chocolate_brown_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/m3_dark_chocolate_brown_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/m3_dark_chocolate_brown_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/m3_dark_chocolate_brown_tertiary</item>
+        <item name="colorOnTertiary">@color/m3_dark_chocolate_brown_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/m3_dark_chocolate_brown_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/m3_dark_chocolate_brown_onTertiaryContainer</item>
+        <item name="colorError">@color/m3_dark_chocolate_brown_error</item>
+        <item name="colorOnError">@color/m3_dark_chocolate_brown_onError</item>
+        <item name="colorErrorContainer">@color/m3_dark_chocolate_brown_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/m3_dark_chocolate_brown_onErrorContainer</item>
+        <item name="android:colorBackground">@color/m3_dark_chocolate_brown_background</item>
+        <item name="colorOnBackground">@color/m3_dark_chocolate_brown_onBackground</item>
+        <item name="colorSurface">@color/m3_dark_chocolate_brown_surface</item>
+        <item name="colorOnSurface">@color/m3_dark_chocolate_brown_onSurface</item>
+        <item name="colorSurfaceVariant">@color/m3_dark_chocolate_brown_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_dark_chocolate_brown_onSurfaceVariant</item>
+        <item name="colorOutline">@color/m3_dark_chocolate_brown_outline</item>
+        <item name="colorOutlineVariant">@color/m3_dark_chocolate_brown_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/m3_dark_chocolate_brown_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/m3_dark_chocolate_brown_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/m3_dark_chocolate_brown_inversePrimary</item>
+    </style>
+
+    <style name="Base.Theme.App.HatsuneMiku" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/m3_dark_hatsune_miku_primary</item>
+        <item name="colorOnPrimary">@color/m3_dark_hatsune_miku_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/m3_dark_hatsune_miku_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/m3_dark_hatsune_miku_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/m3_dark_hatsune_miku_secondary</item>
+        <item name="colorOnSecondary">@color/m3_dark_hatsune_miku_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/m3_dark_hatsune_miku_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/m3_dark_hatsune_miku_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/m3_dark_hatsune_miku_tertiary</item>
+        <item name="colorOnTertiary">@color/m3_dark_hatsune_miku_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/m3_dark_hatsune_miku_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/m3_dark_hatsune_miku_onTertiaryContainer</item>
+        <item name="colorError">@color/m3_dark_hatsune_miku_error</item>
+        <item name="colorOnError">@color/m3_dark_hatsune_miku_onError</item>
+        <item name="colorErrorContainer">@color/m3_dark_hatsune_miku_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/m3_dark_hatsune_miku_onErrorContainer</item>
+        <item name="android:colorBackground">@color/m3_dark_hatsune_miku_background</item>
+        <item name="colorOnBackground">@color/m3_dark_hatsune_miku_onBackground</item>
+        <item name="colorSurface">@color/m3_dark_hatsune_miku_surface</item>
+        <item name="colorOnSurface">@color/m3_dark_hatsune_miku_onSurface</item>
+        <item name="colorSurfaceVariant">@color/m3_dark_hatsune_miku_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_dark_hatsune_miku_onSurfaceVariant</item>
+        <item name="colorOutline">@color/m3_dark_hatsune_miku_outline</item>
+        <item name="colorOutlineVariant">@color/m3_dark_hatsune_miku_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/m3_dark_hatsune_miku_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/m3_dark_hatsune_miku_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/m3_dark_hatsune_miku_inversePrimary</item>
+    </style>
+
+    <style name="Base.Theme.App.StrawberryRed" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/m3_dark_strawberry_red_primary</item>
+        <item name="colorOnPrimary">@color/m3_dark_strawberry_red_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/m3_dark_strawberry_red_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/m3_dark_strawberry_red_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/m3_dark_strawberry_red_secondary</item>
+        <item name="colorOnSecondary">@color/m3_dark_strawberry_red_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/m3_dark_strawberry_red_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/m3_dark_strawberry_red_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/m3_dark_strawberry_red_tertiary</item>
+        <item name="colorOnTertiary">@color/m3_dark_strawberry_red_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/m3_dark_strawberry_red_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/m3_dark_strawberry_red_onTertiaryContainer</item>
+        <item name="colorError">@color/m3_dark_strawberry_red_error</item>
+        <item name="colorOnError">@color/m3_dark_strawberry_red_onError</item>
+        <item name="colorErrorContainer">@color/m3_dark_strawberry_red_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/m3_dark_strawberry_red_onErrorContainer</item>
+        <item name="android:colorBackground">@color/m3_dark_strawberry_red_background</item>
+        <item name="colorOnBackground">@color/m3_dark_strawberry_red_onBackground</item>
+        <item name="colorSurface">@color/m3_dark_strawberry_red_surface</item>
+        <item name="colorOnSurface">@color/m3_dark_strawberry_red_onSurface</item>
+        <item name="colorSurfaceVariant">@color/m3_dark_strawberry_red_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_dark_strawberry_red_onSurfaceVariant</item>
+        <item name="colorOutline">@color/m3_dark_strawberry_red_outline</item>
+        <item name="colorOutlineVariant">@color/m3_dark_strawberry_red_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/m3_dark_strawberry_red_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/m3_dark_strawberry_red_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/m3_dark_strawberry_red_inversePrimary</item>
+    </style>
+
+    <style name="Base.Theme.App.SakuraPink" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/m3_dark_sakura_pink_primary</item>
+        <item name="colorOnPrimary">@color/m3_dark_sakura_pink_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/m3_dark_sakura_pink_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/m3_dark_sakura_pink_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/m3_dark_sakura_pink_secondary</item>
+        <item name="colorOnSecondary">@color/m3_dark_sakura_pink_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/m3_dark_sakura_pink_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/m3_dark_sakura_pink_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/m3_dark_sakura_pink_tertiary</item>
+        <item name="colorOnTertiary">@color/m3_dark_sakura_pink_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/m3_dark_sakura_pink_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/m3_dark_sakura_pink_onTertiaryContainer</item>
+        <item name="colorError">@color/m3_dark_sakura_pink_error</item>
+        <item name="colorOnError">@color/m3_dark_sakura_pink_onError</item>
+        <item name="colorErrorContainer">@color/m3_dark_sakura_pink_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/m3_dark_sakura_pink_onErrorContainer</item>
+        <item name="android:colorBackground">@color/m3_dark_sakura_pink_background</item>
+        <item name="colorOnBackground">@color/m3_dark_sakura_pink_onBackground</item>
+        <item name="colorSurface">@color/m3_dark_sakura_pink_surface</item>
+        <item name="colorOnSurface">@color/m3_dark_sakura_pink_onSurface</item>
+        <item name="colorSurfaceVariant">@color/m3_dark_sakura_pink_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/m3_dark_sakura_pink_onSurfaceVariant</item>
+        <item name="colorOutline">@color/m3_dark_sakura_pink_outline</item>
+        <item name="colorOutlineVariant">@color/m3_dark_sakura_pink_outlineVariant</item>
+        <item name="colorSurfaceInverse">@color/m3_dark_sakura_pink_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/m3_dark_sakura_pink_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/m3_dark_sakura_pink_inversePrimary</item>
+    </style>
+</resources>

@@ -684,6 +684,8 @@ public class PreferencesFragment extends PreferenceFragmentCompat
             AppUpdateWorker.scheduleOrCancel(requireContext());
         } else if (Preferences.PREF_USE_MONET.equals(key)) {
             Toast.makeText(getContext(), R.string.theme_change_requires_restart, Toast.LENGTH_SHORT).show();
+        } else if (Preferences.PREF_THEME_COLOR.equals(key)) {
+            Toast.makeText(getContext(), R.string.theme_change_requires_restart, Toast.LENGTH_SHORT).show();
         }
     }
 

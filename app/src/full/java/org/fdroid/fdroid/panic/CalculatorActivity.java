@@ -39,9 +39,7 @@ public class CalculatorActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        if (org.fdroid.fdroid.Preferences.get().isPureBlack()) {
-            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
-        }
+        FDroidApp.applyThemeToActivity(this);
 
         FDroidApp fdroidApp = (FDroidApp) getApplication();
         fdroidApp.setSecureWindow(this);

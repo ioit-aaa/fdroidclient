@@ -57,9 +57,7 @@ public class InstalledAppsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        if (org.fdroid.fdroid.Preferences.get().isPureBlack()) {
-            getTheme().applyStyle(R.style.ThemeOverlay_App_PureBlack, true);
-        }
+        FDroidApp.applyThemeToActivity(this);
 
         FDroidApp fdroidApp = (FDroidApp) getApplication();
         fdroidApp.setSecureWindow(this);

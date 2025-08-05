@@ -105,6 +105,7 @@ public final class Preferences implements SharedPreferences.OnSharedPreferenceCh
     public static final String PREF_THEME = "theme";
     public static final String PREF_USE_PURE_BLACK_DARK_THEME = "usePureBlackDarkTheme";
     public static final String PREF_USE_MONET = "useMonet";
+    public static final String PREF_THEME_COLOR = "themeColor";
     public static final String PREF_SHOW_INCOMPAT_VERSIONS = "incompatibleVersions";
     public static final String PREF_SHOW_ANTI_FEATURES = "showAntiFeatures";
     public static final String PREF_FORCE_TOUCH_APPS = "ignoreTouchscreen";
@@ -441,6 +442,10 @@ public final class Preferences implements SharedPreferences.OnSharedPreferenceCh
 
     public boolean useMonet() {
         return preferences.getBoolean(PREF_USE_MONET, true);
+    }
+
+    public String getThemeColor() {
+        return preferences.getString(PREF_THEME_COLOR, "default");
     }
 
     public boolean isLocalRepoHttpsEnabled() {

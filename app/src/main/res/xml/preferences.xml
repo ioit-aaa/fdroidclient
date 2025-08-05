@@ -81,6 +81,12 @@
             android:key="useMonet"
             android:summary="@string/use_monet_summary"
             android:title="@string/use_monet" />
+        <ListPreference
+            android:defaultValue="default"
+            android:entries="@array/themeColorNames"
+            android:entryValues="@array/themeColorValues"
+            android:key="themeColor"
+            android:title="@string/theme_color" />
     </PreferenceCategory>
 
     <PreferenceCategory

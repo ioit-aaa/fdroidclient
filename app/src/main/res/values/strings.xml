@@ -469,6 +469,24 @@ This often occurs with apps installed via Google Play or other sources, if they 
     <string name="use_monet">Use Material You colors</string>
     <string name="use_monet_summary">Use colors from your wallpaper (Android 12+)</string>
     <string name="theme_change_requires_restart">Restart the app for theme changes to take effect</string>
+
+    <string name="theme_color">Theme color</string>
+    <string-array name="themeColorNames">
+        <item>Default</item>
+        <item>Grape Purple</item>
+        <item>Chocolate Brown</item>
+        <item>Hatsune Miku</item>
+        <item>Strawberry Red</item>
+        <item>Sakura Pink</item>
+    </string-array>
+    <string-array name="themeColorValues">
+        <item>default</item>
+        <item>grape_purple</item>
+        <item>chocolate_brown</item>
+        <item>hatsune_miku</item>
+        <item>strawberry_red</item>
+        <item>sakura_pink</item>
+    </string-array>
     <string name="unsigned">Unsigned</string>
     <string name="unverified">Unverified</string>
     <string name="repo_list_info_title">Repository list</string>
